@@ -9,8 +9,9 @@ body{
     display:block;
     padding:10px;
     width:80%;
-    margin:70px auto;
+    margin:110px auto;
     background:#fff;
+    box-shadow: 0 0 11px #000;
 }
 #number{
     height:50px;
@@ -37,7 +38,6 @@ table td{
     display:block;
     font-weight:bold;
     position:relative;
-    top:0;
     margin:0;
     width:100%;
     height:70%;
@@ -56,10 +56,7 @@ table td{
 .signs{
     font-size:25px;
 }
-.dial-signs{
-    height:40px
-}
-.dial1{
+.dial{
     background:green;
     height:40px;
     border-radius:7px;
@@ -78,7 +75,5 @@ table tr:nth-child(5) td:nth-child(2):active {
 @media (min-width: 600px){
     .dialer{
         width:400px;
-        margin:110px auto;
     }
-   
 }
