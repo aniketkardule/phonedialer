@@ -1,5 +1,5 @@
 const num = document.querySelectorAll(".dial-no"),
-      dial = document.getElementById("dial"),
+      del = document.getElementById("del"),
       dialNum = document.getElementById("number");
       
 
@@ -18,7 +18,7 @@ var number = "";
 
 
 
-dial.addEventListener("click", function(){
+del.addEventListener("click", function(){
     number = number.substring(0,number.length - 1);
     dialNum.innerText = number;
 })
