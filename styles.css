@@ -1,9 +1,9 @@
 *{
-    padding:0;
+    padding:0
 }
 body{
     background-color:#64A2EB;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif
 }
 .dialer{
     display:block;
@@ -11,28 +11,28 @@ body{
     width:80%;
     margin:110px auto;
     background:#fff;
-    box-shadow: 0 0 11px #000;
+    box-shadow: 0 0 11px #000
 }
 #number{
     height:50px;
     font-size:35px;
     color:#64A2EB;
     text-align:center;
-    margin-bottom:30px;
+    margin-bottom:30px
 }
 table{
     border:0;
     width:100%;
-    border-collapse: collapse;
+    border-collapse: collapse
 }
 table tr{
-    height:60px;
+    height:60px
 }
 table td{
     width:33.33%;
     margin:0 auto;
     cursor:pointer;
-    border-radius:6px;
+    border-radius:6px
 }
 .dial-no{
     display:block;
@@ -42,8 +42,7 @@ table td{
     width:100%;
     height:70%;
     font-size:35px;
-    text-align:center;
-    
+    text-align:center
 }
 .alphabets{
     color:grey;
@@ -51,29 +50,29 @@ table td{
     width:100%;
     height:20%;
     margin:0;
-    text-align:center;
+    text-align:center
 }
 .signs{
-    font-size:25px;
+    font-size:25px
 }
 .dial{
     background:green;
     height:40px;
     border-radius:7px;
-    color:#fff;
+    color:#fff
 }
 td:active {
     background:lightgrey;
     border-radius:21px;
-    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25)
 }
 table tr:nth-child(5) td:nth-child(2):active {
-    background:green;
+    background:green
 }
 
 
 @media (min-width: 600px){
     .dialer{
-        width:400px;
+        width:400px
     }
 }
