@@ -37,7 +37,7 @@
                     <td><p class="dial-no">#</p><p class="alphabets"></p></td>
                 </tr>
                 <tr>
-                    <td><p class="dial-no signs"><i class="fa fa-star-o" aria-hidden="true"></i></i></p></td>
+                    <td><p class="dial-no signs"><i class="fa fa-star-o" aria-hidden="true"></i></p></td>
                     <td class="dial"><p class="dial-no signs"><i class="fa fa-phone" aria-hidden="true"></i></p></td>
                     <td><p id="del" class=" dial-no signs"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p></td>
                 </tr>
