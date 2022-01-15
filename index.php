@@ -16,24 +16,24 @@
             <div id="number"></div>
             <table>
                 <tr>
-                    <td><p class="dial-no">1</p><p class="alphabets"></p></td>
-                    <td><p class="dial-no">2</p><p class="alphabets">ABC</p></td>
-                    <td><p class="dial-no">3</p><p class="alphabets">DEF</p></td>
+                    <td><p class="dial-no" onclick="addNum(1)">1</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum(2)">2</p><p class="alphabets">ABC</p></td>
+                    <td><p class="dial-no" onclick="addNum(3)">3</p><p class="alphabets">DEF</p></td>
                 </tr>
                 <tr>
-                    <td><p class="dial-no">4</p><p class="alphabets">GHI</p></td>
-                    <td><p class="dial-no">5</p><p class="alphabets">JKL</p></td>
-                    <td><p class="dial-no">6</p><p class="alphabets">MNO</p></td>
+                    <td><p class="dial-no" onclick="addNum(4)">4</p><p class="alphabets">GHI</p></td>
+                    <td><p class="dial-no" onclick="addNum(5)">5</p><p class="alphabets">JKL</p></td>
+                    <td><p class="dial-no" onclick="addNum(6)">6</p><p class="alphabets">MNO</p></td>
                 </tr>
                 <tr>
-                    <td><p class="dial-no">7</p><p class="alphabets">PQRS</p></td>
-                    <td><p class="dial-no">8</p><p class="alphabets">TUV</p></td>
-                    <td><p class="dial-no">9</p><p class="alphabets">WXYX</p></td>
+                    <td><p class="dial-no" onclick="addNum(7)">7</p><p class="alphabets">PQRS</p></td>
+                    <td><p class="dial-no" onclick="addNum(8)">8</p><p class="alphabets">TUV</p></td>
+                    <td><p class="dial-no" onclick="addNum(9)">9</p><p class="alphabets">WXYX</p></td>
                 </tr>
                 <tr>
-                    <td><p class="dial-no">*</p><p class="alphabets"></p></td>
-                    <td><p class="dial-no">0</p><p class="alphabets"></p></td>
-                    <td><p class="dial-no">#</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum(*)">*</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum(0)">0</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum(#)">#</p><p class="alphabets"></p></td>
                 </tr>
                 <tr>
                     <td><p class="dial-no signs"><i class="fa fa-star-o" aria-hidden="true"></i></p></td>
