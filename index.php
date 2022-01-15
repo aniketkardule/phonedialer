@@ -31,9 +31,9 @@
                     <td><p class="dial-no" onclick="addNum(9)">9</p><p class="alphabets">WXYX</p></td>
                 </tr>
                 <tr>
-                    <td><p class="dial-no" onclick="addNum(*)">*</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum('*')">*</p><p class="alphabets"></p></td>
                     <td><p class="dial-no" onclick="addNum(0)">0</p><p class="alphabets"></p></td>
-                    <td><p class="dial-no" onclick="addNum(#)">#</p><p class="alphabets"></p></td>
+                    <td><p class="dial-no" onclick="addNum('#')">#</p><p class="alphabets"></p></td>
                 </tr>
                 <tr>
                     <td><p class="dial-no signs"><i class="fa fa-star-o" aria-hidden="true"></i></p></td>
