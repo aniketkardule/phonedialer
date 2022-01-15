@@ -4,6 +4,7 @@
         <title>
             Phone Dialer
         </title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
@@ -12,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
    </head>
     <body>
+        <!-- dialer section -->
         <div class="dialer">
             <div id="number"></div>
             <table>
