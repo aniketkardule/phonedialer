@@ -1,20 +1,14 @@
-const num = document.querySelectorAll(".dial-no"),
-      del = document.getElementById("del"),
+const del = document.getElementById("del"),
       dialNum = document.getElementById("number");
       
 
 
 var number = "";
 
- for(let i = 0; i <num.length; i++){
-    num[i].onclick = function(){
-        if(this.innerText !== ""){
-            number = number + this.innerText;
-            dialNum.innerText = number;
-        }
-        
+ function addNum(a){
+       number = number + a;
+       dialNum.innerText = number;
     }
- }
 
 
 
