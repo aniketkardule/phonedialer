@@ -3,7 +3,7 @@ const del = document.getElementById("del"),
       
 
 
-var number = "";
+var number = '';
 
  function addNum(a){
        number = number + a;
